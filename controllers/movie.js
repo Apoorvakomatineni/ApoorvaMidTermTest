@@ -1,7 +1,8 @@
 // Website - Movie Database
 // Author - Apoorva Komatineni
-// File - movie
+// File - movie.js
 // ID - 301231336
+
 // create a reference to the model
 let Movie = require("../models/movie");
 

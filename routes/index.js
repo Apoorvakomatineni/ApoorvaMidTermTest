@@ -1,6 +1,6 @@
 // Website - Movie Database
 // Author - Apoorva Komatineni
-// File - movie
+// File - index.js
 // ID - 301231336
 var express = require("express");
 var router = express.Router();

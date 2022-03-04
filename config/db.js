@@ -1,6 +1,6 @@
 // Website - Movie Database
 // Author - Apoorva Komatineni
-// File - movie
+// File - db.js
 // ID - 301231336
 
 module.exports = {

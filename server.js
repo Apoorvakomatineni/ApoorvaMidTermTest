@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Website - Movie Database
 // Author - Apoorva Komatineni
-// File - movie
+// File - server.js
 // ID - 301231336
 
 /**
