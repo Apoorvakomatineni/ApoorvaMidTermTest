@@ -1,18 +1,21 @@
-
-let mongoose = require('mongoose');
+// Website - Movie Database
+// Author - Apoorva Komatineni
+// File - movie
+// ID - 301231336
+let mongoose = require("mongoose");
 
 // Create a model class
 let movieModel = mongoose.Schema(
-    {
-        Title: String,
-        Synopsis: String,
-        Year: Number,
-        Director: String,
-        Genre: String
-    },
-    {
-        collection: "movies"
-    }
+  {
+    Title: String,
+    Synopsis: String,
+    Year: Number,
+    Director: String,
+    Genre: String,
+  },
+  {
+    collection: "movies",
+  }
 );
 
-module.exports = mongoose.model('Movie', movieModel);
+module.exports = mongoose.model("Movie", movieModel);
