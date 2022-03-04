@@ -45,14 +45,12 @@ module.exports.displayAddPage = (req, res, next) => {
 // Processes the data submitted from the Add form to create a new movie
 module.exports.processAddPage = (req, res, next) => {
   let m = Movie({
-    _id: req.body.id,
     Title: req.body.Title,
     Synopsis: req.body.Synopsis,
     Year: req.body.Year,
     Director: req.body.Director,
     Genre: req.body.Genre,
   });
-
   Movie.create(m, (err, movie) => {
     if (err) {
       return res.status(400).send({
